@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <title>My RecomFilm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script2.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="nav">
+        <h1 class="web-title">RecomFilm</h1>
+        <div class="web-button-container">
+            <button onclick="changeHelloWordButton()" class="web-button">Change Hello Word</button>
+            <button class="web-button">Recommend Friends</button>
+            <button class="web-button">My Friends</button>
+        </div>
+        
+    </header>
+    <main>
+        <div class="drama-container"></div>
+        <div class="search-drama">
+            <div class="search-drama_searching">
+                <div class="search-drama_searching-img" style="background-image: url(https://w0.peakpx.com/wallpaper/622/86/HD-wallpaper-three-drama-drama-snapseed-three.jpg);"></div>
+                <div class="search-drama_searching-infor">
+                    <h3>Title: Hello World</h3>
+                    <p>Year: 1990</p>
+                    <p>Genre: Dramatic</p>
+                    <p>Rate: 5.0</p>
+                    <p>Acting: Tom</p>
+                    <p>Typing: school, science</p>
+                </div>
+            </div>
+            <div class="search-drama_result">
+                <div class="search-drama_result-item">
+                    <div class="search-drama_result-item-img" style="background-image: url(https://w0.peakpx.com/wallpaper/622/86/HD-wallpaper-three-drama-drama-snapseed-three.jpg);"></div>
+                    <div class="search-drama_result-item-infor">
+                        <h3>Title: Hello World</h3>
+                        <p>Rate: 4.5</p>
+                        <p>Acting: Tom</p>
+                        <p>Typing: hjd, iodiw, idpowd, iid</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form_input" action></div>
+    </main>
+    <script>
+        let user1 = new User(1, 'Tom Holand', 19, 'Male', 'https://i.pinimg.com/736x/31/78/ac/3178acf55880504dd6db2e37a1b7989d.jpg', 'Good night babe!');
+        user1.addFavorFilm([drama1, drama10, drama2]);
+        userGraph.addUser(user1);
+    </script>
+</body>
+</html>
